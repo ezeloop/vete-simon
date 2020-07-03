@@ -1,0 +1,23 @@
+<%-include("partials/header");-%>
+
+<h1>Buscar pacientes</h1>
+
+
+<div class="form-container">
+
+<form action="/consultar" method="post">
+
+
+
+<div class="data-consulta">
+    <label>Legajo</label>
+    <input class="legajoMascota" type="text"  name="legajoMascota">
+    </div>
+    <div class="btn-danger-div">
+    <button type="submit"class="btn btn-consulta btn-danger btn-lg">Consultar</button>
+    </div>
+</form>
+
+</div>
+
+<%-include("partials/footer");-%>

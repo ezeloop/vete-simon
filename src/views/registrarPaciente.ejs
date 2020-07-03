@@ -1,0 +1,68 @@
+<%-include("partials/header");-%>
+
+<h1>Registrar Paciente</h1>
+
+<div class="form-container">
+<form class="registrar-form"action="/registrar" method="post">
+    <div class="data-registrar">
+        <label>Tipo de mascota</label>
+        <select name="tipoMascota">
+            <option value="gato">Gato</option>
+            <option value="perro">Perro</option>
+            <option value="hamster">Hamster</option>
+            <option value="caballo">Caballo</option>
+            <option value="pajaro">Pajaro</option>
+            
+
+            
+
+        </select>
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="data">
+
+
+
+
+
+        
+        <label>Nombre</label>
+        <input class="nombreMascota" type="text"  name="nombreMascota">
+        </div>
+
+        <div class="data">
+            <label>Legajo</label>
+            <input class="legajoMascota" type="text"  name="legajoMascota">
+            </div>
+
+            
+
+    <div class="data">
+        <label>Fecha nacimiento</label>
+        <input class="nombreMascota" type="date"  name="bday">
+        </div>
+
+        <div class="data">
+            <label>Peso en Kg</label>
+            <input class="pesoMascota" type="text"  name="pesoMascota">
+            </div>    
+            <div class="btn-danger-div">
+            <button type="submit"class="btn btn-danger btn-lg">Registrar</button>
+        </div>
+
+</form>
+
+</div>
+
+<%-include("partials/footer");-%>
